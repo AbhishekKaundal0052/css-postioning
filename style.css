@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#full{
+    position: relative;
+    left: 20px;
+}
+/*use of positon sticky for our nav bar to stick at top*/
+nav{
+    position: sticky;
+    top: 0px;
+    height: 50px;
+}
+/*use of fixed position for our logo */
+#small{
+    position: fixed;
+    top: 10px;
+}
+#first{
+    position: absolute ;
+    top: 200px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEBx9Wr0-Vrvo7-X_EwAXnCxBrBODj3sjPLE_6DZPA&s") ;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 20px;
+}
+nav a {
+    text-decoration: none;
+    }
+img {
+    height: 20px;
+}
+div {
+    padding: 40px;
+}
+a{
+    padding: 50px;
+    color: rgb(252, 252, 252);
+}
+nav{
+    background-color: black;
+    margin-left: 20px;
+}
+body{
+    background-color:goldenrod;
+}
